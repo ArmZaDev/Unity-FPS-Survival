@@ -3302,6 +3302,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4298567337933352}
   - component: {fileID: 143040006674510512}
+  - component: {fileID: 114454220695135508}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -10668,6 +10669,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114454220695135508
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1617073392332282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ee5f3ac99d1f6b4eb7733f4ceda870d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  jump_Force: 10
 --- !u!137 &137013641926716656
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
