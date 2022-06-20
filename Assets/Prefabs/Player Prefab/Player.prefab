@@ -3329,6 +3329,7 @@ GameObject:
   - component: {fileID: 143040006674510512}
   - component: {fileID: 114642265879701592}
   - component: {fileID: 114946950213232776}
+  - component: {fileID: 114876869363393202}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -11444,6 +11445,24 @@ MonoBehaviour:
   fireType: 0
   bulletTpye: 3
   attack_Point: {fileID: 0}
+--- !u!114 &114876869363393202
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1617073392332282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc2cff46a761579439b238a7f6472200, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapons:
+  - {fileID: 114850962782158140}
+  - {fileID: 114053068944282794}
+  - {fileID: 114044875694032482}
+  - {fileID: 114047295430375814}
+  - {fileID: 114044130752341448}
+  - {fileID: 114770794937231446}
 --- !u!114 &114946950213232776
 MonoBehaviour:
   m_ObjectHideFlags: 1
