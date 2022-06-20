@@ -179,6 +179,52 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &188195017 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1555024028642314, guid: 2e877b5c10d8bfa4d965b66a9aa641ac,
+    type: 2}
+  m_PrefabInternal: {fileID: 542932816}
+--- !u!114 &188195020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 188195017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9822ed855fe1dc740ad9939012137906, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapon_Aim: 1
+  muzzleFlash: {fileID: 0}
+  shootSound: {fileID: 0}
+  reload_Sound: {fileID: 0}
+  fireType: 0
+  bulletTpye: 2
+  attack_Point: {fileID: 0}
+--- !u!1 &511035590 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1894090976173372, guid: 2e877b5c10d8bfa4d965b66a9aa641ac,
+    type: 2}
+  m_PrefabInternal: {fileID: 542932816}
+--- !u!114 &511035593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 511035590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9822ed855fe1dc740ad9939012137906, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapon_Aim: 0
+  muzzleFlash: {fileID: 0}
+  shootSound: {fileID: 0}
+  reload_Sound: {fileID: 0}
+  fireType: 0
+  bulletTpye: 3
+  attack_Point: {fileID: 0}
 --- !u!1001 &542932816
 Prefab:
   m_ObjectHideFlags: 0
@@ -218,61 +264,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1894090976173372, guid: 2e877b5c10d8bfa4d965b66a9aa641ac, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 95192364040154350, guid: 2e877b5c10d8bfa4d965b66a9aa641ac,
-        type: 2}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 7c5a34e51b2867143a45160e503a89b7, type: 2}
-    - target: {fileID: 95281830280213188, guid: 2e877b5c10d8bfa4d965b66a9aa641ac,
-        type: 2}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: d9e275bcf41bba84f8eec126f478c858, type: 2}
-    - target: {fileID: 1580253955956962, guid: 2e877b5c10d8bfa4d965b66a9aa641ac, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1043126722167856, guid: 2e877b5c10d8bfa4d965b66a9aa641ac, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 95495031781463988, guid: 2e877b5c10d8bfa4d965b66a9aa641ac,
-        type: 2}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 8acf51cff83ddc2419a84009ebfac0ff, type: 2}
-    - target: {fileID: 1745829173775344, guid: 2e877b5c10d8bfa4d965b66a9aa641ac, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 95944985209263532, guid: 2e877b5c10d8bfa4d965b66a9aa641ac,
-        type: 2}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 5939a356eee8540439eaa94d8bb3df37, type: 2}
-    - target: {fileID: 1555024028642314, guid: 2e877b5c10d8bfa4d965b66a9aa641ac, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 95819592140008372, guid: 2e877b5c10d8bfa4d965b66a9aa641ac,
-        type: 2}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: cca9583b85aa4464e8ea9f774b53db99, type: 2}
-    - target: {fileID: 1207704079672808, guid: 2e877b5c10d8bfa4d965b66a9aa641ac, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 95609875925443114, guid: 2e877b5c10d8bfa4d965b66a9aa641ac,
-        type: 2}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 308d09cf2935c0d4db366d32e866311b, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114290187113382174, guid: 2e877b5c10d8bfa4d965b66a9aa641ac, type: 2}
+    - {fileID: 114960689060650062, guid: 2e877b5c10d8bfa4d965b66a9aa641ac, type: 2}
+    - {fileID: 114126903557215740, guid: 2e877b5c10d8bfa4d965b66a9aa641ac, type: 2}
+    - {fileID: 114911202714281788, guid: 2e877b5c10d8bfa4d965b66a9aa641ac, type: 2}
+    - {fileID: 114149728495422990, guid: 2e877b5c10d8bfa4d965b66a9aa641ac, type: 2}
+    - {fileID: 114483426135895530, guid: 2e877b5c10d8bfa4d965b66a9aa641ac, type: 2}
+    - {fileID: 114070449948303692, guid: 2e877b5c10d8bfa4d965b66a9aa641ac, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 2e877b5c10d8bfa4d965b66a9aa641ac, type: 2}
   m_IsPrefabAsset: 0
 --- !u!4 &542932817 stripped
@@ -280,150 +279,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4298567337933352, guid: 2e877b5c10d8bfa4d965b66a9aa641ac,
     type: 2}
   m_PrefabInternal: {fileID: 542932816}
---- !u!1 &1112871327
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1112871328}
-  - component: {fileID: 1112871330}
-  - component: {fileID: 1112871329}
-  m_Layer: 0
-  m_Name: Player Audio
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1112871328
+--- !u!4 &542932818 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1112871327}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 542932817}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1112871329
+  m_CorrespondingSourceObject: {fileID: 4305423652382360, guid: 2e877b5c10d8bfa4d965b66a9aa641ac,
+    type: 2}
+  m_PrefabInternal: {fileID: 542932816}
+--- !u!1 &547089088 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1745829173775344, guid: 2e877b5c10d8bfa4d965b66a9aa641ac,
+    type: 2}
+  m_PrefabInternal: {fileID: 542932816}
+--- !u!114 &547089091
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1112871327}
+  m_GameObject: {fileID: 547089088}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a731c3634146e46aff683a161b7ea5, type: 3}
+  m_Script: {fileID: 11500000, guid: 9822ed855fe1dc740ad9939012137906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  footstep_Clip:
-  - {fileID: 8300000, guid: 2429399f1ca311945a12f37a32c14aed, type: 3}
-  - {fileID: 8300000, guid: f0761d807b3ae1d4598a50357cb58a5e, type: 3}
-  - {fileID: 8300000, guid: f27be18648dcceb46a46397f5c4c2e62, type: 3}
-  - {fileID: 8300000, guid: 3005916a05630f2439d211eaa6faba3d, type: 3}
-  volume_Min: 0
-  volume_Max: 0
-  step_Distance: 0
---- !u!82 &1112871330
+  weapon_Aim: 2
+  muzzleFlash: {fileID: 0}
+  shootSound: {fileID: 547089092}
+  reload_Sound: {fileID: 0}
+  fireType: 1
+  bulletTpye: 0
+  attack_Point: {fileID: 0}
+--- !u!82 &547089092 stripped
 AudioSource:
+  m_CorrespondingSourceObject: {fileID: 82232454370029986, guid: 2e877b5c10d8bfa4d965b66a9aa641ac,
+    type: 2}
+  m_PrefabInternal: {fileID: 542932816}
+--- !u!1 &1342956289 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1580253955956962, guid: 2e877b5c10d8bfa4d965b66a9aa641ac,
+    type: 2}
+  m_PrefabInternal: {fileID: 542932816}
+--- !u!114 &1342956292
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1112871327}
+  m_GameObject: {fileID: 1342956289}
   m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: -0.83
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9822ed855fe1dc740ad9939012137906, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapon_Aim: 2
+  muzzleFlash: {fileID: 0}
+  shootSound: {fileID: 1342956293}
+  reload_Sound: {fileID: 0}
+  fireType: 0
+  bulletTpye: 0
+  attack_Point: {fileID: 0}
+--- !u!82 &1342956293 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 82936301297313150, guid: 2e877b5c10d8bfa4d965b66a9aa641ac,
+    type: 2}
+  m_PrefabInternal: {fileID: 542932816}
 --- !u!1001 &1359000459
 Prefab:
   m_ObjectHideFlags: 0
@@ -466,3 +382,85 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1aa7bf25b446c4baa8e0af352f470d1b, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1645370385 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1584185579254548, guid: 2e877b5c10d8bfa4d965b66a9aa641ac,
+    type: 2}
+  m_PrefabInternal: {fileID: 542932816}
+--- !u!114 &1645370386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1645370385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ebe8f41602b6bd45942f115580c4be7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerRoot: {fileID: 542932817}
+  lookRoot: {fileID: 542932818}
+  invert: 0
+  can_Unlock: 1
+  sensivity: 5
+  smooth_Steps: 10
+  smooth_Weight: 0.4
+  roll_Angle: 10
+  roll_Speed: 3
+  default_Look_Limits: {x: -70, y: 80}
+--- !u!1 &1658941247 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1043126722167856, guid: 2e877b5c10d8bfa4d965b66a9aa641ac,
+    type: 2}
+  m_PrefabInternal: {fileID: 542932816}
+--- !u!82 &1658941249 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 82852755379852728, guid: 2e877b5c10d8bfa4d965b66a9aa641ac,
+    type: 2}
+  m_PrefabInternal: {fileID: 542932816}
+--- !u!114 &1658941250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1658941247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9822ed855fe1dc740ad9939012137906, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapon_Aim: 2
+  muzzleFlash: {fileID: 0}
+  shootSound: {fileID: 1658941249}
+  reload_Sound: {fileID: 1658941251}
+  fireType: 0
+  bulletTpye: 0
+  attack_Point: {fileID: 0}
+--- !u!82 &1658941251 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 82976215250167010, guid: 2e877b5c10d8bfa4d965b66a9aa641ac,
+    type: 2}
+  m_PrefabInternal: {fileID: 542932816}
+--- !u!1 &2122473104 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1207704079672808, guid: 2e877b5c10d8bfa4d965b66a9aa641ac,
+    type: 2}
+  m_PrefabInternal: {fileID: 542932816}
+--- !u!114 &2122473107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2122473104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9822ed855fe1dc740ad9939012137906, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapon_Aim: 1
+  muzzleFlash: {fileID: 0}
+  shootSound: {fileID: 0}
+  reload_Sound: {fileID: 0}
+  fireType: 0
+  bulletTpye: 1
+  attack_Point: {fileID: 0}
