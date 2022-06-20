@@ -218,29 +218,9 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 114290187113382174, guid: 2e877b5c10d8bfa4d965b66a9aa641ac,
-        type: 2}
-      propertyPath: playerRoot
-      value: 
-      objectReference: {fileID: 542932817}
-    - target: {fileID: 114290187113382174, guid: 2e877b5c10d8bfa4d965b66a9aa641ac,
-        type: 2}
-      propertyPath: lookRoot
-      value: 
-      objectReference: {fileID: 542932818}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e877b5c10d8bfa4d965b66a9aa641ac, type: 2}
   m_IsPrefabAsset: 0
---- !u!4 &542932817 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4298567337933352, guid: 2e877b5c10d8bfa4d965b66a9aa641ac,
-    type: 2}
-  m_PrefabInternal: {fileID: 542932816}
---- !u!4 &542932818 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4305423652382360, guid: 2e877b5c10d8bfa4d965b66a9aa641ac,
-    type: 2}
-  m_PrefabInternal: {fileID: 542932816}
 --- !u!1001 &1359000459
 Prefab:
   m_ObjectHideFlags: 0

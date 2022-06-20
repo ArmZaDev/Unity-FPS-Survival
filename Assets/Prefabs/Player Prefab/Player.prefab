@@ -3304,6 +3304,7 @@ GameObject:
   - component: {fileID: 4298567337933352}
   - component: {fileID: 143040006674510512}
   - component: {fileID: 114454220695135508}
+  - component: {fileID: 114752302354945844}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -10681,6 +10682,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ebe8f41602b6bd45942f115580c4be7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerRoot: {fileID: 4298567337933352}
+  lookRoot: {fileID: 4305423652382360}
+  invert: 0
+  can_Unlock: 1
+  sensivity: 5
+  smooth_Steps: 10
+  smooth_Weight: 0.4
+  roll_Angle: 10
+  roll_Speed: 3
+  default_Look_Limits: {x: -70, y: 80}
 --- !u!114 &114454220695135508
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10692,8 +10703,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ee5f3ac99d1f6b4eb7733f4ceda870d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 4
   jump_Force: 10
+--- !u!114 &114752302354945844
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1617073392332282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4451daf0d1020cd429134f601a156594, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprint_Speed: 8
+  move_Speed: 4
+  crouch_Speed: 1.5
 --- !u!137 &137013641926716656
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
