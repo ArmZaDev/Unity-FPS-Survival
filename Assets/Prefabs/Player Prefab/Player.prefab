@@ -3151,6 +3151,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4305423652382360}
+  - component: {fileID: 114290187113382174}
   m_Layer: 0
   m_Name: Look Root
   m_TagString: Untagged
@@ -10669,6 +10670,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114290187113382174
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1584185579254548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ebe8f41602b6bd45942f115580c4be7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114454220695135508
 MonoBehaviour:
   m_ObjectHideFlags: 1
