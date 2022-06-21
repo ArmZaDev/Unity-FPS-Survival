@@ -50,7 +50,7 @@ public class WeaponHeadler : MonoBehaviour {
 
 	}
 
-	private void Aim(bool canAim)
+	public void Aim(bool canAim)
     {
 		anim.SetBool(AnimationTags.AIM_PARAMETER, canAim);
     }
