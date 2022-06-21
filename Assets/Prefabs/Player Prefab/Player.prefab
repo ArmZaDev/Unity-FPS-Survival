@@ -460,6 +460,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4621962650612048}
   - component: {fileID: 20823662363026290}
+  - component: {fileID: 95707428036840594}
   m_Layer: 0
   m_Name: FP Camera
   m_TagString: Untagged
@@ -11242,6 +11243,24 @@ Animator:
   m_Avatar: {fileID: 9000000, guid: 9ba50ff5806385f4da160695a7223e1d, type: 3}
   m_Controller: {fileID: 9100000, guid: 308d09cf2935c0d4db366d32e866311b, type: 2}
   m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!95 &95707428036840594
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1076698487134430}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2c3f40d946a870e44b9fb36e2e04f0a2, type: 2}
+  m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
