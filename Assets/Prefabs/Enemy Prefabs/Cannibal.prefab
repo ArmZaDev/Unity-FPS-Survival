@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 65912142744709362}
   - component: {fileID: 195540884636916838}
   - component: {fileID: 114575214270585656}
+  - component: {fileID: 114301715353057662}
   m_Layer: 0
   m_Name: Cannibal
   m_TagString: Untagged
@@ -1457,7 +1458,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1008422506087598}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 45, y: 21, z: 111.62}
+  m_LocalPosition: {x: 45, y: 25.28, z: 143.62}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4246718276447146}
@@ -1692,6 +1693,26 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114301715353057662
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1008422506087598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c53c9589cc68044eb8cfd73bd3da8a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walk_Speed: 0.5
+  run_Speed: 4
+  chase_Distance: 7
+  attack_Distance: 2.2
+  chase_After_Attack_Distance: 2
+  patrol_Radius_Min: 20
+  patrol_Radius_Max: 60
+  patrol_For_This_Time: 15
+  wait_Before_Attack: 2
 --- !u!114 &114575214270585656
 MonoBehaviour:
   m_ObjectHideFlags: 1
