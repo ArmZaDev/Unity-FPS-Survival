@@ -25,9 +25,9 @@ GameObject:
   - component: {fileID: 195540884636916838}
   - component: {fileID: 114575214270585656}
   - component: {fileID: 114301715353057662}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cannibal
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
